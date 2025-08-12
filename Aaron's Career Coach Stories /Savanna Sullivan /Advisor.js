@@ -1,8 +1,10 @@
+// A greet to the advisor
 function advisor(Savanna = "Savanna Sullivan") {
-  console.log("You are my best advisor " + Savanna + "!");
+  console.log("You are my best coach advisor " + Savanna + "!");
 }
 advisor();
 
+// A function is listing the core skills
 function skillCore(
   core1 = "Client Relations",
   core2 = "Medical Coding",
@@ -19,7 +21,8 @@ function skillCore(
     console.log(`Integers market to provide support comprehensive for ${core6}.`);
   }
 skillCore();  
-  
+
+// An object is storing these skills  
 function getObj() {
   return {
     ExpSkill1: "Client Relations",
@@ -30,7 +33,15 @@ function getObj() {
     ExpSkill6: "Data Analytics"
   };
 }
-
 console.log(getObj());
+
+// Scope refers to where variables can be accessed
+const company = "Office";
+
+const logMonitorDesktop = () => {
+  let activity = "the Workplace";
+  return "We create projects at " + activity + " to focus objectives at the " + company;
+};
+  console.log(logMonitorDesktop())
   
 console.log("Savanna Sullivan - Advisor Career Coach");
