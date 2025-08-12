@@ -20,4 +20,17 @@ function skillCore(
   }
 skillCore();  
   
+function getObj() {
+  return {
+    ExpSkill1: "Client Relations",
+    ExpSkill2: "Medical Coding",
+    ExpSkill3: "Financial Management",
+    ExpSkill4: "Marketing Strategy",
+    ExpSkill5: "Microsoft Office Suite",
+    ExpSkill6: "Data Analytics"
+  };
+}
+
+console.log(getObj());
+  
 console.log("Savanna Sullivan - Advisor Career Coach");
