@@ -1,4 +1,4 @@
-function advisor(Savanna) {
+function advisor(Savanna = "Savanna Sullivan") {
   console.log("You are my best advisor " + Savanna + "!");
 }
 advisor();
